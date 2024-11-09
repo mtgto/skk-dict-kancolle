@@ -8,27 +8,16 @@ on:
     paths:
       - src/SKK-JISYO.kancolle
       - .github/workflows/build.yml
-  # Pull Requestでの実験中だけ有効にしておく
-  pull_request:
-    branches:
-      - master
-    paths:
-      - src/SKK-JISYO.kancolle
-      - .github/workflows/build.yml
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        # Pull Requestでの実験中だけ有効にしておく
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
       - run: |
           # コミット最終日時を取得
           LAST_MODIFIED=$(git log --date=format:"%b. %-d, %Y" --pretty=format:"%cd" -1 ./src/SKK-JISYO.kancolle)
           # 43 - 45行目を削除して、読みのソートを行った結果をbuildディレクトリに出力
-          echo $LAST_MODIFIED
           sed -e 43,45d -e "s/%LAST_MODIFIED%/${LAST_MODIFIED}/" ./src/SKK-JISYO.kancolle | docker run --rm -i ghcr.io/mtgto/skkdic-sort:latest > ./build/SKK-JISYO.kancolle
           if ! git diff --exit-code --quiet ./build/SKK-JISYO.kancolle; then
             git config user.name "github-actions[bot]"
