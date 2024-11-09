@@ -2,11 +2,11 @@
 ;; SKK Kancolle charactor name dictionary.
 ;; Copyright (C) 2014 dyama <dyama@member.fsf.org>
 ;;
-;; Maintainer: dyama <dyama@member.fsf.org>
+;; Maintainer: mtgto <hogerappa@gmail.com>
 ;; Version: (Look the github page.)
 ;; Keywords: japanese
 ;; Created: Feb. 25, 2014
-;; Last Modified: (Look the github page.)
+;; Last Modified: %LAST_MODIFIED%
 ;;
 ;; The MIT License (MIT)
 ;; 
@@ -28,7 +28,8 @@
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ;; SOFTWARE.
 ;;
-;; Github: https://github.com/dyama/skk-dict-kancolle
+;; Github: https://github.com/mtgto/skk-dict-kancolle
+;; Original: https://github.com/dyama/skk-dict-kancolle
 ;;
 ;;; Commentary:
 ;;

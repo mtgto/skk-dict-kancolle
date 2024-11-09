@@ -7,6 +7,9 @@ Kancolle words dictionary for SKK
 
 艦娘名、深海棲艦名、装備品名など、ゲーム中に頻出する用語が抑えてあります。
 
+[`src/SKK-JISYO.kancolle`](src/SKK-JISYO.kancolle) はメンテナンス用ですので、ソートされていません。
+辞書として用いる場合はソート済みの [`build/SKK-JISYO.kancolle`](build/SKK-JISYO.kancolle) をお勧めします。
+
 ライセンス
 ----------
 
