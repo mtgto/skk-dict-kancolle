@@ -6,7 +6,7 @@
 ;; Version: (Look the github page.)
 ;; Keywords: japanese
 ;; Created: Feb. 25, 2014
-;; Last Modified: Feb. 11, 2026
+;; Last Modified: Feb. 23, 2026
 ;;
 ;; The MIT License (MIT)
 ;; 
@@ -502,6 +502,8 @@ z3 /マックスシュルツ/
 ぐろわーるかい /Gloire改;軽巡洋艦(La Galissonnière級5番艦,図鑑No.570/
 ぐろーりあす /Glorious;巡洋戦艦(Courageous級2番艦,図鑑No.612/
 ぐろーりあす /Glorious;正規空母(Glorious級1番艦,図鑑No.617/
+ぐろーりあすかい /Glorious改;巡洋戦艦(Courageous級2番艦,図鑑No.612/
+ぐろーりあすかい /Glorious改;正規空母(Glorious級1番艦,図鑑No.617/
 けいかいじん /警戒陣;↑/
 けいくうぼ /軽空母/軽母/
 けいじゅんせいき /軽巡棲鬼/軽巡棲姫/
@@ -1081,6 +1083,7 @@ z3 /マックスシュルツ/
 ひらとかい /平戸改;海防艦(択捉形9番艦,図鑑No.370/
 ひりゅう /飛龍;正規空母(飛龍型1番艦,図鑑No.9/
 ひりゅうかい /飛龍改;正規空母(飛龍型1番艦,図鑑No.9/
+ひりゅうかいさん /飛龍改三;航空母艦(重近代化改装飛龍型,図鑑No.621/
 ひりゅうかいに /飛龍改二;正規空母(飛龍型1番艦,図鑑No.196/
 びすまるく /Bismarck;戦艦(Bismarck級1番艦,図鑑No.171/
 びすまるくかい /Bismarck改;戦艦(Bismarck級1番艦,図鑑No.172/
@@ -1356,6 +1359,7 @@ z3 /マックスシュルツ/
 れいせん62 /零戦62型/零式艦戦62型/零式艦上戦闘機62型/
 れいてい /零偵;零式水上偵察機/零式水偵/零式水上偵察機/
 れきしんとん /Lexington;正規空母(Lexington級1番艦,図鑑No.566/
+れきしんとんかい /Lexington改;正規空母(Lexington級1番艦,図鑑No.566/
 れきゅう /レ級;→戦艦レ級/レ級elite/レ級flagship/
 れっぷう /烈風/
 れんごうかんたい /連合艦隊/
